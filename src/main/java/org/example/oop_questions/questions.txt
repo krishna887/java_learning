@@ -1,0 +1,59 @@
+1. **Encapsulation**:
+   - Write a Java class representing a `Car`. Encapsulate its properties (e.g., make, model, year) using private access modifiers and provide public methods to access and modify these properties.
+
+2. **Abstraction**:
+   - Create an abstract class `Shape` with an abstract method `calculateArea()`. Implement concrete subclasses `Circle` and `Rectangle` inheriting from `Shape` and override the `calculateArea()` method to calculate the area of the respective shapes.
+
+3. **Inheritance**:
+   - Define a class `Animal` with properties like `name` and `sound`. Create subclasses `Dog`, `Cat`, and `Cow` inheriting from `Animal`, each with a method `makeSound()` that outputs the sound of the respective animal.
+
+4. **Polymorphism**:
+   - Create an interface `Playable` with a method `play()`. Implement classes `Piano`, `Guitar`, and `Drum` that implement the `Playable` interface and provide their specific implementation of the `play()` method.
+
+5. **Encapsulation and Abstraction**:
+   - Design a `BankAccount` class with private properties like `balance` and `accountNumber`. Encapsulate these properties and provide public methods like `deposit()` and `withdraw()` to modify the balance. Ensure abstraction by hiding the internal implementation details.
+
+6. **Encapsulation and Inheritance**:
+   - Implement a `Person` class with properties like `name` and `age`. Extend the `Person` class to create a subclass `Employee` with additional properties like `employeeId` and `designation`. Encapsulate the properties of both classes.
+
+7. **Encapsulation and Polymorphism**:
+   - Create a `Vehicle` class with private properties like `speed` and `fuelCapacity`. Encapsulate these properties and provide a method `move()` to simulate movement. Implement subclasses like `Car` and `Bike` that override the `move()` method to provide specific behavior.
+
+8. **Abstraction and Inheritance**:
+   - Define an abstract class `BankAccount` with properties like `balance` and `accountNumber` and an abstract method `calculateInterest()`. Extend this class to create subclasses like `SavingsAccount` and `CheckingAccount` that implement the `calculateInterest()` method differently.
+
+9. **Abstraction and Polymorphism**:
+   - Create an interface `Shape` with a method `calculateArea()`. Implement classes like `Circle`, `Rectangle`, and `Triangle` that implement the `Shape` interface and provide their specific implementation of the `calculateArea()` method.
+
+10. **Inheritance and Polymorphism**:
+    - Design a class hierarchy for a school system, with a base class `Person` and subclasses like `Student` and `Teacher`. Utilize inheritance to model relationships between different roles in the school, and demonstrate polymorphic behavior by interacting with instances of these classes through a common interface.
+
+11. **Encapsulation**:
+    - Implement a `Book` class with private properties like `title`, `author`, and `isbn`. Encapsulate these properties and provide public methods to access and modify them.
+
+12. **Abstraction**:
+    - Define an abstract class `BankAccount` with properties like `balance` and `accountNumber`. Implement concrete subclasses `SavingsAccount` and `CurrentAccount` that inherit from `BankAccount` and provide specific implementations for methods like `withdraw()`.
+
+13. **Inheritance**:
+    - Create a base class `Shape` with properties like `color` and `filled`. Extend this class to create subclasses like `Circle`, `Rectangle`, and `Triangle`, each with methods to calculate area and perimeter.
+
+14. **Polymorphism**:
+    - Define an interface `Animal` with methods like `makeSound()` and `move()`. Implement classes like `Dog`, `Cat`, and `Bird` that implement the `Animal` interface and provide specific implementations for these methods.
+
+15. **Encapsulation and Abstraction**:
+    - Design a `Customer` class with private properties like `name`, `email`, and `address`. Encapsulate these properties and provide public methods for customer-related operations while abstracting the internal implementation details.
+
+16. **Encapsulation and Inheritance**:
+    - Create a base class `Vehicle` with properties like `make`, `model`, and `year`. Extend this class to create subclasses like `Car` and `Motorcycle`, each with additional properties and methods while encapsulating the common properties.
+
+17. **Encapsulation and Polymorphism**:
+    - Implement a `Bank` class with private properties like `accounts` and `branch`. Encapsulate these properties and provide methods like `addAccount()` and `getAccountDetails()`. Utilize polymorphism to handle different types of accounts.
+
+18. **Abstraction and Inheritance**:
+    - Define an abstract class `Employee` with properties like `name`, `id`, and `salary`. Extend this class to create subclasses like `Manager` and `Engineer`, each with additional properties and methods while implementing the abstract methods.
+
+19. **Abstraction and Polymorphism**:
+    - Design an interface `Shape` with methods like `calculateArea()` and `calculatePerimeter()`. Implement classes like `Circle`, `Rectangle`, and `Triangle` that implement the `Shape` interface and provide specific implementations for these methods.
+
+20. **Inheritance and Polymorphism**:
+    - Create a class hierarchy for a vehicle rental system, with a base class `Vehicle` and subclasses like `Car`, `Bike`, and `Truck`. Utilize inheritance to model relationships between different types of vehicles and demonstrate polymorphic behavior through common method calls.
